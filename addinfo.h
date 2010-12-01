@@ -15,6 +15,11 @@ public:
     explicit addInfo(QWidget *parent = 0);
     ~addInfo();
 
+public slots:
+    void accept();
+    void reject();
+    void exitapp();
+
 private:
     Ui::addInfo *ui;
 };

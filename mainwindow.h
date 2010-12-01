@@ -17,7 +17,6 @@ public:
 
 public slots:
         void button();
-        void Exit();
 
 private:
     Ui::MainWindow *ui;
