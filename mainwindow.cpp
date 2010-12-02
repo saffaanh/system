@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QMessageBox>
 #include <addinfo.h>
+#include <QMenuBar>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -41,7 +42,6 @@ void MainWindow::button()
         ui->userPass->clear();
     }
 }
-
 
 }
 

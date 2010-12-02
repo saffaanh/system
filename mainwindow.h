@@ -23,6 +23,8 @@ private:
 
 
 private slots:
+    void on_actionLogin_activated();
+    void on_actionLogin_triggered();
     void on_actionExit_triggered();
 };
 
