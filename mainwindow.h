@@ -20,12 +20,11 @@ public slots:
 
 private:
     Ui::MainWindow *ui;
-
+    void keyPressEvent(QKeyEvent *e);
 
 private slots:
-    void on_actionLogin_activated();
-    void on_actionLogin_triggered();
     void on_actionExit_triggered();
+    void on_actionLogin_triggered();
 };
 
 #endif // MAINWINDOW_H

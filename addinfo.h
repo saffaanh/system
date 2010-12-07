@@ -19,9 +19,11 @@ public slots:
     void accept();
     void reject();
     void exitapp();
+    void number();
 
 private:
     Ui::addInfo *ui;
+    void keyPressEvent(QKeyEvent *e);
 };
 
 #endif // ADDINFO_H

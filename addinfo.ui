@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>483</width>
-    <height>372</height>
+    <width>759</width>
+    <height>494</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,35 +16,35 @@
   <widget class="QLabel" name="firstLabel">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>90</y>
-     <width>81</width>
+     <x>110</x>
+     <y>110</y>
+     <width>201</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>First name:</string>
+    <string>                          First name:</string>
    </property>
   </widget>
   <widget class="QLabel" name="surnameLabel">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>130</y>
-     <width>67</width>
+     <x>110</x>
+     <y>150</y>
+     <width>201</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>Surname:</string>
+    <string>                             Surname:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="surnameLine">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>130</y>
-     <width>211</width>
+     <x>250</x>
+     <y>150</y>
+     <width>331</width>
      <height>27</height>
     </rect>
    </property>
@@ -52,9 +52,9 @@
   <widget class="QLineEdit" name="firstLine">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>90</y>
-     <width>211</width>
+     <x>250</x>
+     <y>110</y>
+     <width>331</width>
      <height>27</height>
     </rect>
    </property>
@@ -62,9 +62,9 @@
   <widget class="QLineEdit" name="holidayLine">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>210</y>
-     <width>211</width>
+     <x>250</x>
+     <y>310</y>
+     <width>331</width>
      <height>27</height>
     </rect>
    </property>
@@ -72,9 +72,9 @@
   <widget class="QLineEdit" name="vehicleLine">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>250</y>
-     <width>211</width>
+     <x>250</x>
+     <y>350</y>
+     <width>331</width>
      <height>27</height>
     </rect>
    </property>
@@ -82,47 +82,47 @@
   <widget class="QLabel" name="mobileLabel">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>170</y>
-     <width>111</width>
+     <x>110</x>
+     <y>270</y>
+     <width>201</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>Mobile number:</string>
+    <string>                    Mobile number:</string>
    </property>
   </widget>
   <widget class="QLabel" name="holidayLabel">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>210</y>
-     <width>121</width>
+     <x>110</x>
+     <y>310</y>
+     <width>201</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>Holiday duration:</string>
+    <string>                 Holiday duration:</string>
    </property>
   </widget>
   <widget class="QLabel" name="vehicleLabel">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>250</y>
+     <x>110</x>
+     <y>350</y>
      <width>201</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>Vehicle registration number:</string>
+    <string>                      Number plate:</string>
    </property>
   </widget>
   <widget class="QLabel" name="customerLabel">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>40</y>
+     <x>320</x>
+     <y>60</y>
      <width>151</width>
      <height>17</height>
     </rect>
@@ -139,18 +139,24 @@
   <widget class="QLineEdit" name="mobileLine">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>170</y>
-     <width>211</width>
+     <x>250</x>
+     <y>270</y>
+     <width>331</width>
      <height>27</height>
     </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>11</number>
    </property>
   </widget>
   <widget class="QPushButton" name="submitButton">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>320</y>
+     <x>370</x>
+     <y>420</y>
      <width>98</width>
      <height>27</height>
     </rect>
@@ -162,8 +168,8 @@
   <widget class="QPushButton" name="clearButton">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>320</y>
+     <x>260</x>
+     <y>420</y>
      <width>98</width>
      <height>27</height>
     </rect>
@@ -175,14 +181,60 @@
   <widget class="QPushButton" name="exitButton">
    <property name="geometry">
     <rect>
-     <x>340</x>
-     <y>320</y>
+     <x>480</x>
+     <y>420</y>
      <width>98</width>
      <height>27</height>
     </rect>
    </property>
    <property name="text">
     <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="addressLine">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>190</y>
+     <width>331</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PostcodeLine">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>230</y>
+     <width>331</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="surnameLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>190</y>
+     <width>201</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>                              Address:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="surnameLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>230</y>
+     <width>201</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>                            Postcode:</string>
    </property>
   </widget>
  </widget>
@@ -195,8 +247,8 @@
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>263</x>
-     <y>335</y>
+     <x>403</x>
+     <y>435</y>
     </hint>
     <hint type="destinationlabel">
      <x>409</x>
@@ -211,8 +263,8 @@
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>148</x>
-     <y>329</y>
+     <x>288</x>
+     <y>429</y>
     </hint>
     <hint type="destinationlabel">
      <x>238</x>
@@ -227,8 +279,8 @@
    <slot>exitapp()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>392</x>
-     <y>336</y>
+     <x>532</x>
+     <y>436</y>
     </hint>
     <hint type="destinationlabel">
      <x>361</x>
@@ -236,8 +288,25 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>mobileLine</sender>
+   <signal>textEdited(QString)</signal>
+   <receiver>addInfo</receiver>
+   <slot>number()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>570</x>
+     <y>283</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>595</x>
+     <y>282</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>exitapp()</slot>
+  <slot>number()</slot>
  </slots>
 </ui>
